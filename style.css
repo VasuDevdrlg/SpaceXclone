@@ -1,0 +1,144 @@
+body{
+  margin: 0px;
+}
+.container1 img
+{
+ height: 621px; 
+ width: 100%;
+ display: block;
+ position: relative;
+ object-fit: cover;
+}
+.container1
+{
+  position: relative;
+  
+}
+.starlink
+{
+position: absolute;
+top: 330px;
+left: 50px;
+width: 450px;
+
+} 
+.launch 
+{
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+font-size: 18px;
+}
+.mission
+{text-align: left;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 42px;
+ color: aliceblue;
+ margin-top: 9px;
+ margin-bottom: 16px;
+}
+.button
+{
+margin-top: 6px;
+padding: 18px 45px;
+background-color: rgba(239, 247, 239,0);
+color: aliceblue;
+border: 2px solid aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+transition: all 0.25s;
+
+}
+.button:hover{
+background-color: aliceblue;
+color: black;
+}
+.header
+{
+background-color: rgba(7, 7, 7, 0);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.logoimg
+{
+width: 250px;
+height: 50px;
+padding-top: 0px;
+padding-left: 15px;
+}
+.logo
+{
+display: inline-block;
+width: 300px;
+}
+.nav
+{
+display: inline-block;
+flex: 1;
+}
+.navt{
+
+}
+.navz
+{
+ width: 100px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ color: aliceblue;
+}
+span
+{ 
+margin-top: 20px;
+flex: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: aliceblue;
+transition: all 0.35s;
+cursor: pointer;
+margin-right: 30px;animation: fadeInUp 0.5s ease-in-out;
+}
+span:hover
+{
+ text-decoration: underline;
+ text-underline-offset: 60%;
+ font-size: 13px;
+}
+.botdiv
+{
+display: flex;
+background-color: black;
+justify-content: center;
+align-items: baseline;
+height: 50px;
+}
+.k
+{
+margin-top: 20px;
+width: 90px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 10px;
+color: aliceblue;
+transition: all 0.35s;
+cursor: pointer;
+margin-right: 30px;
+}
+.k:hover
+{
+ text-decoration: underline;
+ text-underline-offset: 60%;
+ font-size: 11px;
+}
+a
+{
+text-decoration: none;
+}
