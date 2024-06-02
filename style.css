@@ -142,3 +142,30 @@ a
 {
 text-decoration: none;
 }
+@media (max-width: 600px) {
+  span
+  {
+    display: none;
+  }
+  .logo{
+   margin-left: 80px
+  }
+  .launch{
+    font-size: 12px;
+  }
+  .mission
+  {
+    font-size: 22px;
+  }
+  .button
+  {
+    padding: 10px 35px;
+  }
+  .container1 img {
+    
+  object-fit: cover;
+  }
+  .k{
+    margin-right: 10px;
+  }
+}
